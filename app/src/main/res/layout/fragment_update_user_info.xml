@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UpdateUserInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/fragmentProfile"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:elevation="10dp"
+            android:src="@drawable/copy"
+            app:civ_border_color="#FFFFFF"
+            app:civ_border_width="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/updateProfileText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Profile Photo"
+        android:textSize="14sp"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/fragmentProfile"
+        app:layout_constraintStart_toStartOf="@+id/fragmentProfile"
+        app:layout_constraintTop_toBottomOf="@+id/fragmentProfile" />
+
+    <TextView
+        android:id="@+id/removeProfileText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textColor="@color/coupenred"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/fragmentProfile"
+        app:layout_constraintStart_toStartOf="@+id/fragmentProfile"
+        app:layout_constraintTop_toBottomOf="@+id/updateProfileText" />
+
+    <EditText
+        android:id="@+id/updatenameedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/progreesbarred"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/removeProfileText" />
+
+    <EditText
+        android:id="@+id/updateemailedit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:hint="Email"
+        android:backgroundTint="@color/progreesbarred"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updatenameedit" />
+
+    <Button
+        android:id="@+id/updateuserinfoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/border_btn_background"
+        android:backgroundTint="@color/progreesbarred"
+        android:text="Update"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/updateemailedit"
+        app:layout_constraintVertical_bias="0.356" />
+
+    </LinearLayout>
+</ScrollView>

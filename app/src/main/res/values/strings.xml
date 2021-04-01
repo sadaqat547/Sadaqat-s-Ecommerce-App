@@ -1,0 +1,260 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="map_key" translatable="false"> AIzaSyB_qsP8AOP_P0MdlPz-48TDaJYjTP3vbjo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_main2">MainActivity</string>
+
+
+    <!--    All country-->
+
+
+    <string-array name="Pakk_states">
+
+        <item>Select Country... </item>
+        <item>AFGHANISTAN </item>
+        <item>ALBANIA </item>
+        <item>ALGERIA</item>
+        <item>ANDORRA </item>
+        <item>ANGOLA</item>
+        <item>ANTIGUA and BARBUDA</item>
+        <item>ARGENTINA </item>
+        <item>ARMENIA </item>
+        <item>AUSTRALIA </item>
+        <item>AUSTRIA</item>
+        <item>AZERBAIJAN</item>
+        <item>BAHAMAS THE</item>
+        <item>BAHRAIN</item>
+        <item> BANGLADESH</item>
+        <item>BARBADOS</item>
+        <item>	BELARUS</item>
+        <item>BELGIUM	</item>
+        <item>BELIZE	</item>
+        <item>BENIN	</item>
+        <item>BHUTAN	</item>
+        <item>BOLIVIA	</item>
+        <item>BOSNIA and HERZEGOVINA</item>
+        <item>BOTSWANA</item>
+        <item>BRAZIL</item>
+        <item>BRUNEI	</item>
+        <item>BULGARIA	</item>
+        <item>BURKINA FASO	</item>
+        <item>BURUNDI	</item>
+        <item>CABO VERDE	</item>
+        <item>CAMBODIA	</item>
+        <item>CAMEROON	</item>
+        <item>CANADA	</item>
+        <item>CENTRAL AFRICAN REPUBLIC	</item>
+        <item>CHAD	</item>
+        <item>CHILE	</item>
+        <item>CHINA	</item>
+        <item>COLOMBIA	</item>
+        <item>COMOROS	</item>
+        <item>CONGO DEMOCRATIC REPUBLIC OF THE	</item>
+        <item>CONGO REPUBLIC OF THE	</item>
+        <item>COSTA RICA	</item>
+        <item>CROATIA	</item>
+        <item>CÔTE D IVOIRE (Ivory Coast)	</item>
+        <item>CROATIA	</item>
+        <item>CUBA	</item>
+        <item>CYPRUS	</item>
+        <item>CZECH REPUBLIC (Czechia)	</item>
+        <item>DENMARK	</item>
+        <item>DJIBOUTI	</item>
+        <item>DOMINICA	</item>
+        <item>DOMINICAN REPUBLIC	</item>
+        <item>ECUADOR	</item>
+        <item>EGYPT	</item>
+        <item>EL SALVADOR	</item>
+        <item>EQUATORIAL GUINEA	</item>
+        <item>ERITREA	</item>
+        <item>ESTONIA	</item>
+        <item>ESWATINI (formerly Swaziland)	</item>
+        <item>ETHIOPIA	</item>
+        <item>FIJI	</item>
+        <item>FINLAND	</item>
+        <item>FRANCE	</item>
+        <item>GABON	</item>
+        <item>GAMBIA THE	</item>
+        <item>GEORGIA	</item>
+        <item>GERMANY	</item>
+        <item>GHANA</item>
+        <item>GREECE</item>
+        <item>GRENADA</item>
+        <item>GUATEMALA</item>
+        <item>GUINEA</item>
+        <item>GUINEA-BISSAU</item>
+        <item>GUYANA</item>
+        <item>HAITI</item>
+        <item>HONDURAS</item>
+        <item>HUNGARY</item>
+        <item>ICELAND</item>
+        <item>INDIA</item>
+        <item>INDONESIA</item>
+        <item>IRAN</item>
+        <item>IRAQ</item>
+        <item>IRELAND</item>
+        <item>ISRAEL</item>
+        <item>ITALY</item>
+        <item>JAMAICA</item>
+        <item>JAPAN</item>
+        <item>JORDAN</item>
+        <item>KAZAKHSTAN</item>
+        <item>KENYA</item>
+        <item>KIRIBATI</item>
+        <item>KOSOVO</item>
+        <item>KUWAIT</item>
+        <item>KYRGYZSTAN</item>
+        <item>LAOS</item>
+        <item>LATVIA</item>
+        <item>LEBANON</item>
+        <item>LESOTHO</item>
+        <item>LIBERIA</item>
+        <item>LIBYA</item>
+        <item>LIECHTENSTEIN</item>
+        <item>LITHUANIA</item>
+        <item>LUXEMBOURG</item>
+        <item>MADAGASCAR</item>
+        <item>MALAWI</item>
+        <item>MALAYSIA</item>
+        <item>MALDIVES</item>
+        <item>MALI</item>
+        <item>MALTA</item>
+        <item>MARSHALL ISLANDS</item>
+        <item>MAURITANIA</item>
+        <item>MAURITIUS</item>
+        <item>MEXICO</item>
+        <item>MICRONESIA, FEDERATED </item>
+        <item>MOLDOVA</item>
+        <item>MONACO</item>
+        <item>MONGOLIA</item>
+        <item>MONTENEGRO</item>
+        <item>MOROCCO</item>
+        <item>MOZAMBIQUE</item>
+        <item>MYANMAR (formerly Burma)</item>
+        <item>NAMIBIA</item>
+        <item>NAURU</item>
+        <item>NEPAL</item>
+        <item>NETHERLANDS</item>
+        <item>NEW ZEALAND</item>
+        <item>NICARAGUA</item>
+        <item>NIGER</item>
+        <item>NIGERIA</item>
+        <item>NORTH KOREA	</item>
+        <item>NORTH MACEDONIA (formerly Macedonia)</item>
+        <item>NORWAY</item>
+        <item>OMAN</item>
+        <item>PAKISTAN</item>
+        <item>PALAU</item>
+        <item>PALESTINE</item>
+        <item>PANAMA</item>
+        <item>PAPUA NEW GUINEA</item>
+        <item>PARAGUAY</item>
+        <item>PERU</item>
+        <item>PHILIPPINES</item>
+        <item>POLAND</item>
+        <item>PORTUGAL</item>
+        <item>QATAR</item>
+        <item>ROMANIA</item>
+        <item>RUSSIA</item>
+        <item>RWANDA</item>
+        <item>SAINT KITTS and NEVIS</item>
+        <item>SAINT LUCIA</item>
+        <item>SAINT VINCENT and THE GRENADINES</item>
+        <item>SAMOA</item>
+        <item>SAN MARINO	</item>
+        <item>SÃO TOMÉ and PRÍNCIPE</item>
+        <item>SAUDI ARABIA</item>
+        <item>SENEGAL</item>
+        <item>SERBIA</item>
+        <item>SEYCHELLES</item>
+        <item>SIERRA LEONE</item>
+        <item>SINGAPORE</item>
+        <item>SLOVAKIA</item>
+        <item>SLOVENIA</item>
+        <item>SOLOMON ISLANDS</item>
+        <item>SOMALIA</item>
+        <item>SOUTH AFRICA</item>
+        <item>SOUTH KOREA</item>
+        <item>SOUTH SUDAN	</item>
+        <item>SPAIN</item>
+        <item>SRI LANKA</item>
+        <item>SUDAN</item>
+        <item>SURINAME</item>
+        <item>SWEDEN</item>
+        <item>SWITZERLAND</item>
+        <item>SYRIA</item>
+        <item>TAJIKISTAN</item>
+        <item>TANZANIA</item>
+        <item>THAILAND</item>
+        <item>TIMOR-LESTE</item>
+        <item>TOGO</item>
+        <item>TONGA</item>
+        <item>TRINIDAD and TOBAGO</item>
+        <item>TUNISIA</item>
+        <item>TURKEY</item>
+        <item>TURKMENISTAN	</item>
+        <item>TUVALU</item>
+        <item>UGANDA</item>
+        <item>UKRAINE</item>
+        <item>UNITED ARAB EMIRATES (UAE)</item>
+        <item>UNITED KINGDOM* (UK)</item>
+        <item>UNITED STATES OF AMERICA (USA)</item>
+        <item>URUGUAY</item>
+        <item>VANUATU</item>
+        <item>VATICAN CITY (Holy See)</item>
+        <item>VENEZUELA</item>
+        <item>VIETNAM</item>
+        <item>YEMEN</item>
+        <item>ZAMBIA</item>
+        <item>ZIMBABWE</item>
+
+
+    </string-array>
+
+
+    <!--     pakcitylistspinner-->
+
+    <string-array name="Pak_states">
+        <item>Select State... </item>
+        <item>AZAD JAMMU AND KASHMIR </item>
+        <item>Balochistan </item>
+        <item>Khuzdar</item>
+        <item>Muzaffarabad </item>
+        <item>Quetta</item>
+        <item>GILGIT-BALTISTAAN</item>
+        <item>Gilgit city</item>
+        <item>Islamabad </item>
+        <item>KHYBER PAKHTUNKHAWA	 </item>
+        <item>Peshawar</item>
+        <item>PUNJAB</item>
+        <item>Lahore</item>
+        <item>FaisalAbad</item>
+        <item> SINDH</item>
+        <item>Karachi</item>
+        <item>	Hyderabad</item>
+
+    </string-array>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <!--     pakcitylistspinner-->
+
+    <!--    All country-->
+</resources>

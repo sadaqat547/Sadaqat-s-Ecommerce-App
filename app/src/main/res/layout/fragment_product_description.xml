@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDescriptionFragment">
+
+    <TextView
+        android:id="@+id/tv_product_description"
+        android:layout_width="match_parent"
+        android:layout_margin="16dp"
+        android:textColor="@color/black"
+
+        android:layout_height="wrap_content"
+        android:text="xcellent phone ,
+super fast charging, excellent battery time reason 7nm Kirin chipset, super cameras ,dot display makes the phones display big and hand feel is excellent jeeps the phone handy.
+now I only charge my phone subha janay se pehle just for 35 to 45 minutes .
+suggestion for all not to worry about Google services playstore alternative is aurora store just download it once and all playstore apps are available on one click .
+why I selected Huawei nova 7i other then Xiaomi ,oppo Vivo and Samsung .
+Huawei hardware is always Great and in reception of calls and internet Huawei is using CAT 12 modem in nova 7i other brands are still using CAT 6 just to save cost of their devices no one focuses on reception and for me reception and hardware are important for phones . love 💘 Huawei .
+feedback for Huawei
+make accessories available officially like if I need 40w original charger and free buds lite so we can easily purchase from official store." />
+</FrameLayout>

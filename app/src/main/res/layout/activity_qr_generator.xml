@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".qrGeneratorActivity">
+
+    <TextView
+        android:id="@+id/qrgeneratortext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Here is the 20 digits product link."
+        app:layout_constraintStart_toStartOf="@+id/qrgeneratorEdit"
+        app:layout_constraintTop_toBottomOf="@+id/textView66" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Generate QR code"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/qrgeneratorEdit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/border_btn_background"
+        android:maxLength="20"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:hint="Enter product link"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qrgeneratortext" />
+
+    <ImageView
+        android:id="@+id/qrCode"
+        android:layout_width="427dp"
+        android:layout_height="348dp"
+        android:saveEnabled="false"
+        android:alpha="0.4"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qrgeneratorEdit"
+        app:srcCompat="@drawable/copy" />
+
+    <com.github.ybq.android.spinkit.SpinKitView
+        android:id="@+id/activitysearchlinkprogressbar"
+        style="@style/SpinKitView.Large.ThreeBounce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:outlineAmbientShadowColor="@color/black"
+        android:outlineSpotShadowColor="@color/black"
+        app:SpinKit_Color="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/qrgenereatebtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qrCode" />
+
+    <Button
+        android:id="@+id/qrgenereatebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/border_btn_background"
+        android:backgroundTint="@color/black"
+        android:text="Generate"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/downloadQr"
+        android:layout_width="40dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/border_btn_background"
+        android:backgroundTint="@color/black"
+        android:src="@drawable/downloadarrow"
+        app:layout_constraintBottom_toBottomOf="@+id/qrgenereatebtn"
+        app:layout_constraintStart_toEndOf="@+id/qrgenereatebtn"
+        app:layout_constraintTop_toTopOf="@+id/qrgenereatebtn" />
+
+    <ImageView
+        android:id="@+id/shareQr"
+        android:layout_width="40dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="24dp"
+        android:background="@drawable/border_btn_background"
+        android:backgroundTint="@color/black"
+        android:src="@drawable/share"
+        app:layout_constraintBottom_toBottomOf="@+id/qrgenereatebtn"
+        app:layout_constraintStart_toEndOf="@+id/downloadQr"
+        app:layout_constraintTop_toTopOf="@+id/qrgenereatebtn" />
+
+    <ImageView
+        android:id="@+id/scanit"
+        android:layout_width="50dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/qrgenereatebtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/qrgenereatebtn"
+        app:srcCompat="@drawable/arrowdownblack" />
+</androidx.constraintlayout.widget.ConstraintLayout>

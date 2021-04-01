@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="lightblack">#5E000000</color>
+    <color name="colorAccent">#FF2C9B</color>
+    <color name="progreesbarred">#FF0000</color>
+    <color name="progreesbargreen">#00BC19</color>
+    <color name="colorPrimary">#FF2C9B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FF2C9B</color>
+    <color name="couponiconcolor">#8000FF</color>
+    <color name="lightwhite">#D5D5D5</color>
+    <color name="validitycolor">#3606b6</color>
+    <color name="coupenred">#FF4141</color>
+    <color name="halkablack">#D5D5D5</color>
+    <color name="notificationsnotread">#e7f3ff</color>
+    <color name="wishlistBlack">#C3C3C3</color>
+
+
+    <color name="blacknight">#FFFFFF</color>
+    <color name="lightblacknight">#E1E1E1</color>
+    <color name="colorAccentnight">#232323</color>
+    <color name="progreesbarrednight">#FF0000</color>
+    <color name="progreesbargreennight">#00BC19</color>
+    <color name="colorPrimarynight">#232323</color>
+    <color name="whitenight">#000000</color>
+    <color name="colorPrimaryDarknight">#232323</color>
+    <color name="couponiconcolornight">#8000FF</color>
+    <color name="lightwhitenight">#232323</color>
+    <color name="validitycolornight">#3606b6</color>
+    <color name="coupenrednight">#FF4141</color>
+    <color name="halkablacknight">#505050</color>
+    <color name="notificationsnotreadnight">#757575</color>
+    <color name="wishlistBlacknight">#595959</color>
+
+</resources>

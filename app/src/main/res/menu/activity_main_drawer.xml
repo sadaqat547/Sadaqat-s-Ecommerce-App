@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_top">
+        <item
+            android:id="@+id/nav_shopping_fire"
+            android:icon="@drawable/ic_home_black"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_my_orders"
+            android:icon="@drawable/ic_myorders_black"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/nav_my_cart"
+            android:icon="@drawable/ic_cart_black"
+            android:title="My Cart" />
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_centre">
+        <item
+            android:id="@+id/nav_my_rewards"
+            android:icon="@drawable/ic_rewards_black"
+            android:title="My Rewards" />
+        <item
+            android:id="@+id/nav_my_wishlist"
+            android:icon="@drawable/ic_wishlist_black"
+            android:title="My Wishlist" />
+        <item
+            android:id="@+id/changePassword"
+            android:icon="@drawable/ic_search_black"
+            android:title="Search for product" />
+
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_centreee">
+        <item
+            android:id="@+id/myLocation"
+            android:icon="@drawable/ic_location"
+            android:iconTint="@color/black"
+            android:title="My Location" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="Refer to Earn Coupens" />
+    </group>
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+    <item
+            android:id="@+id/nav_my_account"
+            android:icon="@drawable/ic_myaccount_black"
+            android:title="My Account" />
+        <item
+            android:id="@+id/nav_recent"
+            android:icon="@drawable/ic_keyy"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/nav_username"
+            android:icon="@drawable/personal"
+            android:title="Personal Info" />
+
+
+
+    <item
+        android:id="@+id/nav_signout"
+        android:icon="@drawable/ic_signoutt_black"
+        android:title="Sign Out" />
+
+
+
+    </group>
+    <group
+        android:id="@+id/half_centre"
+        android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_privacyPolicy"
+            android:title="Privacy Policy" />
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help Centre" />
+        <item
+            android:id="@+id/nav_terms"
+            android:title="Terms and Conditions " />
+    </group>
+</menu>

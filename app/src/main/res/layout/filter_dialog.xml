@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E1E1E1">
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Search Filters"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/five_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/slider_background"
+        android:backgroundTint="@color/white"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:text="5 Star"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/four_star"
+        app:layout_constraintStart_toEndOf="@+id/Top_rated"
+        app:layout_constraintTop_toBottomOf="@+id/cod" />
+
+    <TextView
+        android:id="@+id/four_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/slider_background"
+        android:backgroundTint="@color/white"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:text="4 Star"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/two_star"
+        app:layout_constraintStart_toEndOf="@+id/Top_rated"
+        app:layout_constraintTop_toBottomOf="@+id/cod" />
+
+    <TextView
+        android:id="@+id/three_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/slider_background"
+        android:backgroundTint="@color/white"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:text="3 Star"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toStartOf="@+id/two_star"
+        app:layout_constraintStart_toEndOf="@+id/four_star"
+        app:layout_constraintTop_toBottomOf="@+id/cod" />
+
+    <TextView
+        android:id="@+id/one_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/slider_background"
+        android:backgroundTint="@color/white"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:text="1 Star"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@+id/free_offers"
+        app:layout_constraintTop_toBottomOf="@+id/two_star" />
+
+    <TextView
+        android:id="@+id/free_offers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/slider_background"
+        android:backgroundTint="@color/white"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:text="Free offer applied"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/Top_rated"
+        app:layout_constraintTop_toBottomOf="@+id/Top_rated" />
+
+    <TextView
+        android:id="@+id/two_star"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/slider_background"
+        android:backgroundTint="@color/white"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:text="2 Star"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cod" />
+
+    <TextView
+        android:id="@+id/price_high_to_low"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/slider_background"
+        android:backgroundTint="@color/white"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:text="Price high to low"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+    <TextView
+        android:id="@+id/price_lo_to_high"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/slider_background"
+        android:backgroundTint="@color/white"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:text="Price low to high"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+    <TextView
+        android:id="@+id/Top_rated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/slider_background"
+        android:backgroundTint="@color/white"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:text="Top Rated"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="@+id/price_lo_to_high"
+        app:layout_constraintTop_toBottomOf="@+id/price_lo_to_high" />
+
+    <TextView
+        android:id="@+id/cod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/slider_background"
+        android:backgroundTint="@color/white"
+        android:elevation="10dp"
+        android:padding="10dp"
+        android:text="COD"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/price_lo_to_high"
+        app:layout_constraintEnd_toStartOf="@+id/price_high_to_low"
+        app:layout_constraintStart_toEndOf="@+id/price_lo_to_high" />
+
+    <Button
+        android:id="@+id/filter_btnDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/border_btn_background"
+        android:backgroundTint="@color/white"
+        android:text="Filter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/one_star"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/cancelFilterBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/border_btn_background"
+        android:backgroundTint="@color/white"
+        android:text="cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/one_star"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
